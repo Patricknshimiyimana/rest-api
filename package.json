@@ -1,5 +1,5 @@
 {
-  "name": "mybrand-api",
+  "name": "rest-api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,20 +8,23 @@
     "mongodb": "^4.3.1",
     "mongoose": "^6.1.8"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "multer": "^1.4.4",
+    "nodemon": "^2.0.15"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johnNzagaruka/mybrand-api.git"
+    "url": "git+https://github.com/Patricknshimiyimana/rest-api.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/johnNzagaruka/mybrand-api/issues"
+    "url": "https://github.com/Patricknshimiyimana/rest-api/issues"
   },
-  "homepage": "https://github.com/johnNzagaruka/mybrand-api#readme"
+  "homepage": "https://github.com/Patricknshimiyimana/rest-api#readme"
 }
