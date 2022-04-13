@@ -1,1 +1,5 @@
 node_modules
+.env
+
+//Create .env file and add the following variable
+MONGODB_URI="mongodb+srv://user:password@cluster0.4qk2g.mongodb.net/databaseName?retryWrites=true&w=majority"
